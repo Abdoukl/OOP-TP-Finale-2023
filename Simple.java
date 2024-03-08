@@ -13,5 +13,6 @@ public class Simple extends Piece {
 	}
 	//To not make Simple class abstract.
 	void add(Piece p) {
+		System.out.println("les pieces simple ne sont pas composés.");
 	}
 }
